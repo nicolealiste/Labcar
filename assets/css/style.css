@@ -185,3 +185,42 @@ footer{
 	background-color: #2b2b2b;
 	height: 80vh;
 }
+
+.f-head{
+	margin-top: 40px;
+}
+
+.f-linea{
+	width: 98%;
+	height: 4px;
+	margin-top: 40px;
+}
+
+i{
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+.logos{
+	float: right;
+}
+
+.links{
+	margin-left:500px;
+}
+
+.m-y-m{
+	margin-bottom: 20px;
+}
+
+.f-hr{
+	position: center;
+}
+
+.f-txt{
+	color: white;
+	position: center;
+}
