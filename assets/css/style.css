@@ -140,18 +140,44 @@ h2{
 .tarifa{
 	background-color: #f7b617;
 	color: white;
-	height: 60vh;
+	height: 70vh;
+	width: 100%;
 }
 
+.form-inline{
+	margin-left:90px;
+}
+
+#t-input{
+	margin-bottom: 20px;
+}
+
+.form-control{
+	background-color: transparent;
+	border-color: white;
+}
+
+/*Cambio color placeholder*/
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
 .t-txt{
-	display: 
+	margin-top:100px;
+	margin-left: 100px; 
+}
+
+#ruta{
+	font-weight: bold;
+	margin-left: 110px;
 }
 
 #map{
 	width: 30%;
 	height: 50vh;
 	float: right;
-	margin-top: 35px;
+	margin-top: 60px;
 	margin-right: 90px;
 }
 

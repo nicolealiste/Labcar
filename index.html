@@ -38,13 +38,13 @@
 	<section>
 		<div class="hero container">
 			<div class="row caja">
-				<div class="col-md-5 col-xs-6 col-xs-12 box">
+				<div class="col-xs-4 col-md-5 box">
 					<form class="y-box">
 						<div class="form-group">
 							<h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
 							<h3>Viaja con <img src="assets/img/logo-blanco.png" class="logo" alt="logo"></h3>
 							<h5>REGÍSTRATE</h5>
-							<input type="" class="linea linea-txt" id="registrate">
+							<input type="text" class="linea linea-txt" id="registrate">
 							<p class="linea-txt">O Bien</p>
 							<input type="" class="linea linea-txt" id="oBien">
 							<button type="button" class="btn btn-primary boton" value="Conviértete en conductor">Conviértete en un conductor</button>
@@ -58,10 +58,10 @@
 	<section>
 		<div class="informacion container">
 			<div class="row info">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-xs-12">
 					<img src="assets/img/celular.png" alt="tres" class="img-responsive center-block celular">
 				</div>
-				<div class="txt-informacion col-lg-4 col-md-4">
+				<div class="txt-informacion col-md-4">
 					<h2>Descarga la nueva app</h2>
 					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 					</br>
@@ -74,7 +74,7 @@
 	<section>
 		<div class="conductor container">
 			<div class="row">
-				<div class="col-md-4 col-xs-6 col-xs-12 c-box">
+				<div class="col-md-4 col-xs-12 c-box">
 					<form class="b-box">
 						<div class="form-group">
 							<h2>Conduce cuando quieras</h2>
@@ -89,28 +89,38 @@
 	</section>
 	<!--TARIFA-->
 	<section>
-		<div class="row tarifa">
-			<div class="col-md-12 col-sm-12">
-				<div class="col-md-6 col-xs-12 t-txt text-left">
-					<h1>Tarifas</h1>
-					<p>Consulta las tarifas LabCar aquí</p>
-					<div class="col-md-4 col-sm-4">
-						<img src="assets/img/circulo.png">
-						<input type="text" class="form-control" id="origen" placeholder="Ingrese punto de partida">
+		<div class="container tarifa">
+			<div class="row ">
+				<div class="col-xs-12 col-md-12">
+					<div class="col-xs-6 col-md-6">
+						<div class="t-txt text-left">
+							<h1>Tarifas</h1>
+							<p>Consulta las tarifas LabCar aquí</p>
+						</div>	
+						<form class="form-inline">
+							<div class="form-group has-feedback" id="t-input">
+								<label class="control-label col-sm-2"><img src="assets/img/circulo.png"></label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="origen" placeholder="Ingrese punto de partida">
+								</div>
+							</div>
+							<div class="form-group has-feedback" id="t-input">
+								<label class="control-label col-sm-2"><img src="assets/img/flecha.png"></label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control input-block" id="destino" placeholder="Ingrese un destino">
+								</div>
+							</div>
+							<div class="">
+								<button class="btn btn-default" type="submit" id="ruta">¡Trazar Ruta!</button>
+							</div>
+						</form>	
 					</div>
-					<div class="col-md-4 col-sm-4">
-						<img src="assets/img/flecha.png">
-						<input type="text" class="form-control input-block" id="destino" placeholder="Ingrese un destino">
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<button id="ruta">¡Trazar Ruta!</button>
+					<!-- Mapa -->
+					<div class="col-md-6 col-xs-12" id="map">
+					<!-- Acá va a ir el mapa -->
 					</div>
 				</div>
-				<!-- Mapa -->
-				<div class="col-lg-6 col-md-6 col-xs-12 img-thumbnail" id="map">
-				<!-- Acá va a ir el mapa -->
-				</div>
-			</div>
+			</div>	
 		</div>
 	</section>
 	<footer>
