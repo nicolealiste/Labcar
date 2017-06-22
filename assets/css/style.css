@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
 #nav{
 	background-color: white;
 	width: 100%;
@@ -15,15 +19,8 @@
 	margin-bottom: 0px;
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
-    color: #2b2b2b;
-
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav>li>a:hover {
-    color: #41521F;
+.logo-nav{
+	margin-left: 150px;
 }
 
 .hero{
@@ -34,6 +31,56 @@
 	background-repeat: no-repeat;
 	background-position: bottom center;
 }
+
+.caja{
+	padding-top: 15%;
+}
+
+.box{
+	background-color: #f7b617;
+	color: white;
+	float: right;
+}
+
+.y-box{
+	padding-left: 10%;
+	height: 320px;
+	padding-top: 3%;
+}
+
+.logo{
+	width: 20%;
+}
+
+h5{
+	margin-top: 20px;
+}
+
+input{
+	background: transparent; 
+	border: none; 
+	outline: 0;
+}
+
+.linea{
+	border-bottom: 1px solid white;
+	width: 120px;
+}
+
+.linea-txt{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.boton{
+	background-color: #ffffff;
+	color: #2b2b2b;
+	font-weight: bold;
+	border: 1px solid #FFBE00;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
 
 #map{
 	width: 50%;
