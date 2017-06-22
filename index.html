@@ -89,13 +89,17 @@
 	</section>
 	<!--TARIFA-->
 	<section>
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="col-md-3 col-sm-3">
-					<img src="assets/img/circulo.png">
-					<input type="text" class="form-control input-block" id="origen" placeholder="Ingrese punto de partida">
+		<div class="row tarifa">
+			<div class="col-md-12 col-sm-12 t-txt text-left form-horizontal">
+				<div class="col-md-6 col-xs-12 Text">
+					<h1>Tarifas</h1>
+					<p>Consulta las tarifas LabCar aquí</p>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 form-horizontal">
+					<img src="assets/img/circulo.png">
+					<input type="text" class="form-control" id="origen" placeholder="Ingrese punto de partida">
+				</div>
+				<div class="col-md-3 col-sm-3 form-horizontal">
 					<img src="assets/img/flecha.png">
 					<input type="text" class="form-control input-block" id="destino" placeholder="Ingrese un destino">
 				</div>
@@ -103,10 +107,8 @@
 					<button id="ruta">¡Trazar Ruta!</button>
 				</div>
 			</div>
-		</div>
-		<!-- Mapa -->
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="map">
+			<!-- Mapa -->
+			<div class="col-lg-6 col-md-6 col-xs-12 img-thumbnail" id="map">
 			<!-- Acá va a ir el mapa -->
 			</div>
 		</div>
