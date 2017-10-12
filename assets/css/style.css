@@ -1,226 +1,233 @@
+/*
+Color-amarillo: #f7b617
+Color gris (footer): #2b2b2b 
+*/
+
 *{
-	margin: 0;
-	padding: 0;
+	font-family: 'Raleway', sans-serif;
 }
 
-body{
-	font-family: 'Roboto', sans-serif;
+
+/*Navbar...................*/
+.navbar-default {
+	background-color:#fff;
+	border-color:#fff;
+	background-image:none;
+	box-shadow:none;
+	padding: 1% 5%;
 }
 
-#nav{
-	background-color: white;
-	width: 100%;
-	height: 100px;
-	padding-top: 3%;
-	border-color: #2b2b2b;
+/*para cambiar el color del hover del scroll spy*/
+.navbar-amarillo .navbar-nav>.active>a, 
+.navbar-amarillo .navbar-nav>.active>a:focus, 
+.navbar-amarillo .navbar-nav>.active>a:hover{
+	background: #fed136;
+	color: black;
+	border-radius: 3px;
+	padding: 10px;
+	margin-top: 5px;
 }
 
-.navbar{
-	margin-bottom: 0px;
+.navbar-brand{
+	padding-top: 5px;
 }
 
-.logo-nav{
-	margin-left: 150px;
+.navbar-toggle{
+	background-color: #fed136;
+} 
+
+
+.navbar-color{
+	background-color: #001510;
 }
 
-.hero{
-	background-image: url(../img/taxi.jpg);
-	width: 100%;
-	height: 110vh;
+/*first section............*/
+.first-section{
+	background: url(../img/taxi.jpg) 50% 50% / 100% no-repeat fixed;
+	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: center bottom;
 }
 
-.caja{
-	padding-top: 15%;
+#welcome h2,
+#welcome h3,
+#welcome h5{
+	color: #fff;
 }
 
-.box{
+.caja-amarilla{
+	margin-top: 170px;
 	background-color: #f7b617;
-	color: white;
-	float: right;
+	padding: 3%;
 }
 
-.y-box{
-	padding-left: 10%;
-	height: 320px;
-	padding-top: 3%;
+.rayita{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin: 5px 0;
+	color: #fff;
+	background-color: transparent;
+	outline: none;
 }
 
-.logo{
-	width: 20%;
+.amarillo-mobile{
+	padding: 20px;
 }
 
-h5{
-	margin-top: 20px;
+.spancito{
+	color: #fff;
+	padding: 0 30px;
 }
 
-input{
-	background: transparent; 
-	border: none; 
-	outline: 0;
+.mt-0{
+	margin-top: 0;
 }
 
-.linea{
-	border-bottom: 1px solid white;
-	width: 120px;
-}
+/*information*/
 
-.linea-txt{
-	display: inline-block;
-	margin-right: 50px;
-}
-
-.boton{
-	background-color: #ffffff;
-	color: #2b2b2b;
-	font-weight: bold;
-	border: 1px solid #FFBE00;
-	border-radius: 8px;
-	margin-top: 20px;
-}
-
-.informacion{
+#informacion{
 	background-color: #f7b617;
-	color: white;
-	width: 100%;
-	height: 80vh;
+	padding: 4% 0;
 }
 
-.info{
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-	width: 85%;
-	height: 70vh;
+#informacion img{
+	padding: 20px 0;
+}
+
+#informacion h2,
+#informacion p{
+	color: #fff;
 	margin-top: 30px;
 }
 
-.celular{
-	margin-top: 30px;
+.caja-linea{
+	border: 1px solid #fff;
 }
 
-h2{
-	font-weight: bold;
-}
+/*conduce*/
 
-.txt-informacion{
-	margin-top: 100px;
-}
-
-.conductor{
+#conduce{
 	background-image: url(../img/conduce.jpg);
-	width: 100%;
-	height: 70vh;
-	background-size: cover;
+	height: 500px;
+	background: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.c-box{
-	background-color: rgba(8, 2, 14, 0.5);
-	color: white;
-	float: right;
-	height: 70vh;
-}
-
-.b-box{
-	padding-left: 10%;
-	padding-top: 25%;
-}
-
-.c-boton{
+.amarillo{
 	background-color: #f7b617;
-	color: #ffffff;
-	font-weight: bold;
-	border: 1px solid #FFBE00;
-	border-radius: 8px;
+	border: none;
+	color: #fff;
 }
 
-.tarifa{
+.fsize-18{
+	font-size: 18px;
+}
+
+.gris{
+	background-color: rgba(43,43,43,0.5);
+	height: 500px;
+	padding-top: 90px;
+	padding-left: 20px;
+}
+
+/*tarifa*/
+
+#tarifa{
 	background-color: #f7b617;
-	color: white;
-	height: 70vh;
+	padding: 4% 0;
+}
+
+#tarifa h2,
+#tarifa p,
+#conduce h2,
+#conduce p{
+	color: #fff;
+}
+
+.cuadro-mapa{
+	height: 450px;
+	width: 541px;
+	margin:0;
+}
+
+.map-margen{
+	padding:1%;
+	border: 1px solid #fff;
+}
+
+#tarifa input{
+	width: 100%;
+	line-height: 40px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #fff;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+#tarifa img{
+	margin-top: 10px;
+}
+
+/*pie de pagina*/
+
+.pie{
+	background-color: #2b2b2b;
+	padding: 3% 0;
+}
+
+hr{
+	border: 1px solid #fff;
 	width: 100%;
 }
 
-.form-inline{
-	margin-left:90px;
-}
 
-#t-input{
-	margin-bottom: 20px;
-}
-
-.form-control{
-	background-color: transparent;
-	border-color: white;
-}
-
-/*Cambio color placeholder*/
-.form-control::-webkit-input-placeholder { color: white; }
-.form-control:-moz-placeholder { color: white; }
-.form-control::-moz-placeholder { color: white; }
-.form-control:-ms-input-placeholder { color: white; }
-
-.t-txt{
-	margin-top:100px;
-	margin-left: 100px; 
-}
-
-#ruta{
-	font-weight: bold;
-	margin-left: 110px;
-}
-
-#map{
-	width: 30%;
-	height: 50vh;
-	float: right;
-	margin-top: 60px;
-	margin-right: 90px;
-}
-
-footer{
-	background-color: #2b2b2b;
-	height: 80vh;
-}
-
-.f-head{
-	margin-top: 40px;
-}
-
-.f-linea{
-	width: 98%;
-	height: 4px;
-	margin-top: 40px;
-}
-
-i{
+.lineas a{
+	text-decoration: none;
 	color: white;
 }
 
-a{
-	color: white;
+.lineas a:hover{
+	color: #f7b617;
 }
 
-.logos{
-	float: right;
+.lineas i{
+	color: #fff;
+	cursor: pointer;
+	margin-right: 8px;
 }
 
-.links{
-	margin-left:500px;
+
+.mt-50{
+	margin-top: 50px;
 }
 
-.m-y-m{
-	margin-bottom: 20px;
+.mt-25{
+	margin-top: 25px;
 }
 
-.f-hr{
-	position: center;
+.mt-5{
+	margin-top: 5px;
 }
 
-.f-txt{
-	color: white;
-	position: center;
+.redes-sociales{
+	padding-top: 350px;
+}
+
+.tiendas{
+	padding-top: 230px;
+}
+
+.tiendas img{
+	cursor: pointer;
+}
+
+.pie p{
+	color: #fff;
 }
