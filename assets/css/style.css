@@ -1,0 +1,233 @@
+/*
+Color-amarillo: #f7b617
+Color gris (footer): #2b2b2b 
+*/
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*Navbar...................*/
+.navbar-default {
+	background-color:#fff;
+	border-color:#fff;
+	background-image:none;
+	box-shadow:none;
+	padding: 1% 5%;
+}
+
+/*para cambiar el color del hover del scroll spy*/
+.navbar-amarillo .navbar-nav>.active>a, 
+.navbar-amarillo .navbar-nav>.active>a:focus, 
+.navbar-amarillo .navbar-nav>.active>a:hover{
+	background: #fed136;
+	color: black;
+	border-radius: 3px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.navbar-brand{
+	padding-top: 5px;
+}
+
+.navbar-toggle{
+	background-color: #fed136;
+} 
+
+
+.navbar-color{
+	background-color: #001510;
+}
+
+/*first section............*/
+.first-section{
+	background: url(../img/taxi.jpg) 50% 50% / 100% no-repeat fixed;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#welcome h2,
+#welcome h3,
+#welcome h5{
+	color: #fff;
+}
+
+.caja-amarilla{
+	margin-top: 170px;
+	background-color: #f7b617;
+	padding: 3%;
+}
+
+.rayita{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin: 5px 0;
+	color: #fff;
+	background-color: transparent;
+	outline: none;
+}
+
+.amarillo-mobile{
+	padding: 20px;
+}
+
+.spancito{
+	color: #fff;
+	padding: 0 30px;
+}
+
+.mt-0{
+	margin-top: 0;
+}
+
+/*information*/
+
+#informacion{
+	background-color: #f7b617;
+	padding: 4% 0;
+}
+
+#informacion img{
+	padding: 20px 0;
+}
+
+#informacion h2,
+#informacion p{
+	color: #fff;
+	margin-top: 30px;
+}
+
+.caja-linea{
+	border: 1px solid #fff;
+}
+
+/*conduce*/
+
+#conduce{
+	background-image: url(../img/conduce.jpg);
+	height: 500px;
+	background: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.amarillo{
+	background-color: #f7b617;
+	border: none;
+	color: #fff;
+}
+
+.fsize-18{
+	font-size: 18px;
+}
+
+.gris{
+	background-color: rgba(43,43,43,0.5);
+	height: 500px;
+	padding-top: 90px;
+	padding-left: 20px;
+}
+
+/*tarifa*/
+
+#tarifa{
+	background-color: #f7b617;
+	padding: 4% 0;
+}
+
+#tarifa h2,
+#tarifa p,
+#conduce h2,
+#conduce p{
+	color: #fff;
+}
+
+.cuadro-mapa{
+	height: 450px;
+	width: 541px;
+	margin:0;
+}
+
+.map-margen{
+	padding:1%;
+	border: 1px solid #fff;
+}
+
+#tarifa input{
+	width: 100%;
+	line-height: 40px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #fff;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+#tarifa img{
+	margin-top: 10px;
+}
+
+/*pie de pagina*/
+
+.pie{
+	background-color: #2b2b2b;
+	padding: 3% 0;
+}
+
+hr{
+	border: 1px solid #fff;
+	width: 100%;
+}
+
+
+.lineas a{
+	text-decoration: none;
+	color: white;
+}
+
+.lineas a:hover{
+	color: #f7b617;
+}
+
+.lineas i{
+	color: #fff;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+
+.mt-50{
+	margin-top: 50px;
+}
+
+.mt-25{
+	margin-top: 25px;
+}
+
+.mt-5{
+	margin-top: 5px;
+}
+
+.redes-sociales{
+	padding-top: 350px;
+}
+
+.tiendas{
+	padding-top: 230px;
+}
+
+.tiendas img{
+	cursor: pointer;
+}
+
+.pie p{
+	color: #fff;
+}

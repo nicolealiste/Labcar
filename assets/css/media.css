@@ -1,0 +1,30 @@
+@media (min-width: 1px) and (max-width:768px){
+	#conduce{
+		height: 270px;
+	}
+
+	.gris{
+		height: 270px;
+		padding-top: 1px;
+	}
+
+	#informacion {
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
+	
+	.caja-linea{
+		margin-left: 8.3%;
+		margin-top: 10px;
+	}
+
+	#tarifa{
+		padding-bottom: 40px;
+	}
+
+	.pie{
+		padding-top: 40px;
+	}
+}
